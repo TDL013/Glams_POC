@@ -14,3 +14,9 @@
   flex: 1;
   overflow: auto;
 }
+
+.router-container:after {
+  content: '';
+  display: block;
+  height: 100%
+}
