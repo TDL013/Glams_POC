@@ -1,6 +1,9 @@
 .menu-one-container {
   border: solid 0px black;
   margin: 20px 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 li {
