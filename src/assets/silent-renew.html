@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>OIDC Silent Renew</title>
+</head>
+<body>
+<script src="oidc-client.min.js"></script>
+<script>
+  var log = typeof Oidc !== "undefined" && Oidc.Log ? Oidc.Log : Log;
+  log.logger = window.parent.console;
+  log.level = log.ERROR;
+  var mgr = new Oidc.UserManager();
+  mgr.signinSilentCallback().catch(error => {
+        window.parent.console.error(error);
+    });
+</script>
+</body>
+</html>

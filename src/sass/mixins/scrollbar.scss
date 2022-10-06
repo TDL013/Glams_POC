@@ -1,0 +1,24 @@
+@mixin scrollbarStyling {
+    $scrollbarTrack: rgba(#f1f1f1,100);
+    $scrollbarThumb: rgba(#c1c1c1,100);
+    $scrollbarThumbHover: rgba(#afafaf,100);
+
+    /* scrollbar Styling */
+    ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+    background: $scrollbarTrack;
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background: $scrollbarThumb;
+    border-radius: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+    background: $scrollbarThumbHover;
+    }
+}

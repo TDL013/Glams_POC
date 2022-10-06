@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card-header">
+    Property Project (One)
+  </div>
+
+  <div class="card-body">
+    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+
+      <li [ngbNavItem]="1">
+        <a ngbNavLink>Project</a>
+        <ng-template ngbNavContent>
+          <div class="content-container">
+            <app-the-side-menu-one (menuItemSelectedEvent)="handleMenuItemSelected($event)"></app-the-side-menu-one>
+            <app-the-details-one [menuItemSelected]="menuItemSelected"></app-the-details-one>
+          </div>
+        </ng-template>
+      </li>
+
+      <li [ngbNavItem]="2">
+        <a ngbNavLink>Property Details</a>
+        <ng-template ngbNavContent>
+          <img class="project-form" src="assets/img/project-forms/property_details.png">
+        </ng-template>
+      </li>
+    </ul>
+
+    <div [ngbNavOutlet]="nav" class=""></div>
+  </div>
+</div>

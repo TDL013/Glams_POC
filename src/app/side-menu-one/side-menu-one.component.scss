@@ -1,0 +1,11 @@
+.nav-item {
+  .active {
+    border-bottom: 3px solid #04575a;
+  }
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

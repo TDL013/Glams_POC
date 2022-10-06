@@ -1,0 +1,13 @@
+@import "app-theme";
+
+form-select {
+  .form-select {
+    font-size: $font-size-base;
+    width: 100%;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+    border-top-left-radius: 0.375em;
+    border-bottom-left-radius: 0.375em;
+
+  }
+}

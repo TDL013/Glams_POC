@@ -1,0 +1,14 @@
+@mixin footer {
+  app-footer {
+    background-color: $footerBackground;
+    background-size: 33%;
+    background-image: url('../../assets/img/background-UI-30.jpg');
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-top: $navbarBorder solid 1px;
+    font-size: 0.75rem;
+    padding-top: 10px;
+    margin-top: 0;
+  }
+}

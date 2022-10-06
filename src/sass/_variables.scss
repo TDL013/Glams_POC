@@ -1,0 +1,82 @@
+$statusRed: rgb(240, 8, 7);
+$statusGreen: rgb(59, 179, 79);
+$statusOrange: rgb(254, 172, 42);
+$statusRed37: rgba(240, 8, 7, .37);
+$statusGreen37: rgba(59, 179, 79, .37);
+$statusOrange37: rgba(254, 172, 42, .37);
+
+$statusBlue: rgb(5, 68, 255);
+$navBarBackground: #05767a;
+$dropdownMenuBackground: #effffb;
+$footerBackground: #fdfdfd;
+
+$statusYes: #33724e;
+$statusNo: #d40038;
+$statusAll: #c9b338;
+$navbarBorder: #04575a;
+$navbarText: #9bb;
+
+$navTabsBorder: #dee2e6;
+
+// $buttonGreen: rgb(153, 214, 77);
+$buttonGreen: rgba(#439566, 100);
+$buttonRed: #a94442;
+$buttonGrey: #c5c5c5;
+$buttonBlack: #000000;
+$buttonGreenHover: rgba(27, 118, 121, 0.9);
+$buttonGreen85: rgba(27, 118, 121, 0.85);
+$placeholderGrey: rgb(179, 179, 179);
+$inputBorderGrey: rgb(200, 200, 200);
+$transparentBlack10: rgba(0, 0, 0, .1);
+$errorRed: rgba(#8d1d20, 100);
+$errorBg: rgba(#F3DEDE, 100);
+$infoBlue: #0c5460;
+$white: rgb(255, 255, 255);
+$white75: rgba(255, 255, 255, .75);
+$black: rgb(0, 0, 0);
+$black125: rgba(0, 0, 0, 0.125);
+$timelineBackgroundBlack: rgb(72, 80, 81);
+$timelineIndicatorWhite10: rgba(255, 255, 255, 0.2);
+$backgroundGrey: #f9f9f9;
+$iconGrey: rgb(173, 173, 173);
+$formLabelBlack: rgba(#495057, 100);
+$disabledBtnGrey: rgb(242, 242, 242);
+$disabledLabelColor: #e9ecef;
+$modalHeaderColor: rgba(#4c5455, 100);
+$disabledOptionColor: rgba(#c2c2c2, 100);
+$scrollbarTrack: rgba(#f1f1f1, 100);
+$scrollbarThumb: rgba(#c1c1c1, 100);
+$scrollbarThumbHover: rgba(#afafaf, 100);
+$textShadow: rgba(#4a4a4a, 100);
+$tableGroupHeaderBg: rgba(#f2f2f2, 100);
+$tableGroupHeaderBorder: rgba(#f1f1f1, 100);
+$instructionSeperatorBorder: rgba(#e6e6e6, 100);
+$currentScheduleGrey: rgba(#808080, 0.27);
+$apronBorderLight: rgb(236, 236, 236);
+$apronBorderDark: rgb(239, 240, 244);
+$flightContainerBorder: rgb(221, 221, 221);
+
+$formControlBorderColor: #ced4da;
+
+$progressGrey: rgb(230, 230, 230);
+
+$rowDetailGrey: rgb(247, 247, 247);
+
+$greenBlock: rgb(179, 223, 189);
+$redBlock: rgb(245, 160, 163);
+$orangeBlock: rgb(251, 220, 175);
+$blackout: rgb(34, 34, 34);
+
+$navHeight: 74px;
+$mdBreakpoint: 768px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1200px
+);
+
+
+$accordion-padding-y: 1rem;

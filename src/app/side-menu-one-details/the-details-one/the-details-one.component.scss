@@ -1,0 +1,30 @@
+@import "app-theme";
+
+:host {
+  flex-grow: 1;
+}
+
+.details-one-container {
+  border: solid 0px red;
+  margin: 20px 0px;
+}
+
+.custom-header::after {
+  content: none;
+}
+
+.custom-header {
+  background-color: #f5f5f5;
+  padding: 8px;
+  border: 1px solid var(--bs-border-color-translucent);
+  border-radius: 3px !important;
+
+  button:hover {
+    text-decoration: underline;
+  }
+}
+
+::ng-deep .accordion-item {
+  border: 0px solid black !important;
+  margin: 15px 0px;
+}

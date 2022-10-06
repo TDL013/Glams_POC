@@ -1,0 +1,113 @@
+@mixin formStyling {
+  input-group.active-toggle {
+    input[type="radio"]:nth-child(1):checked + .btn-option {
+      background: $statusYes;
+      color: $white;
+      border: 1px solid darken($color: $statusYes, $amount: 10);
+    }
+
+    input[type="radio"]:nth-child(3):checked + .btn-option {
+      background: $statusNo;
+      color: $white;
+      border: 1px solid darken($color: $statusNo, $amount: 10);
+    }
+
+    input[type="radio"]:nth-child(5):checked + .btn-option {
+      background: $statusAll;
+      color: $white;
+      border: 1px solid darken($color: $statusAll, $amount: 10);
+    }
+  }
+
+  .editor-horizontal {
+    @media (min-width: map-get($grid-breakpoints, "lg")) {
+      --bs-gutter-x: 10px;
+      --bs-gutter-y: 0px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: calc(-1 * var(--bs-gutter-y));
+      margin-right: calc(-0.5 * var(--bs-gutter-x));
+      margin-left: calc(-0.5 * var(--bs-gutter-x));
+    }
+
+    .editor-label {
+      @media (min-width: map-get($grid-breakpoints, "lg")) {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        flex: 0 0 auto;
+
+        &:not([class*="col-"]) {
+          width: 33.33%;
+        }
+      }
+    }
+
+    .editor-inner {
+      @media (min-width: map-get($grid-breakpoints, "lg")) {
+        flex: 1 0 auto;
+
+        &:has(.btn-group) {
+          flex-grow: 0;
+        }
+      }
+    }
+
+    > * {
+      @media (min-width: map-get($grid-breakpoints, "lg")) {
+        flex-shrink: 0;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        margin-top: var(--bs-gutter-y);
+      }
+    }
+
+    > label.col-lg-6 ~ .editor-inner {
+      max-width: 50%;
+    }
+
+    > label.col-lg-3 ~ form-select.editor-inner {
+      max-width: 75%;
+    }
+  }
+
+  .editor-horizontal:not(.editor-radio, .editor-check, .editor-checkbitwise, .editor-switch) {
+    .editor-label {
+      @media (min-width: map-get($grid-breakpoints, "lg")) {
+        padding-top: 0.425rem;
+      }
+    }
+  }
+
+  .editor-buttongroup {
+    .btn-group {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+    }
+  }
+
+  .form-action-bar {
+    background-color: transparent;
+    text-align: right;
+    padding: .75rem 1.5rem;
+    border-top: 1px solid $gray-300;
+  }
+
+  .input-group {
+    :not(:first-child):not(.dropdown-menu):not(.form-floating):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+      min-width: 40px;
+    }
+  }
+
+  .input-group:not(.has-validation) {
+    :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+      min-width: 40px;
+      border-right: 1px solid transparent;
+    }
+  }
+}

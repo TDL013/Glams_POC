@@ -1,0 +1,15 @@
+@import "app-theme";
+
+app-wovg-legal-detail-list {
+  .card {
+    box-shadow: none;
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+  }
+}
+
+app-wovg-legal-detail-table {
+  padding: 20px;
+
+  @include datatable;
+}

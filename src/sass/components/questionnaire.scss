@@ -1,0 +1,20 @@
+@import "app-theme";
+app-questionnaire-table {
+  padding: 20px;
+  @include datatable;
+}
+
+app-questionnaire-edit {
+  .form-group {
+    min-height: 0;
+  }
+  app-recipient-item .sub-form {
+    display: flex;
+    .row {
+      flex-grow: 1;
+    }
+    .btn-container {
+      margin-top: 32px;
+    }
+  }
+}

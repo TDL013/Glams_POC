@@ -1,4 +1,20 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="app-container">
+
+  <div class="header">
+    <navbar>
+      <a class="navbar-brand logo d-flex align-items-center flex-grow-1" href="#">
+        <span style="display: inline-block">
+          GLAMS
+        </span>
+      </a>
+    </navbar>
+  </div>
+
+  <div class="router-container">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer">
+    <app-footer version="2.0"></app-footer>
+  </div>
+</div>

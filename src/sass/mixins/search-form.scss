@@ -1,0 +1,31 @@
+@mixin searchFormStyling {
+  .search-form {
+    margin-top: calc(1rem - 20px);
+    // margin-bottom: 4rem;
+
+    .btn-clear {
+      font-size: $font-size-sm;
+      float: right;
+    }
+
+    .form-group,
+    .form-group.floating-label {
+      min-height: unset;
+    }
+
+    .form-group {
+      legend {
+        float: none;
+        display: block;
+        font-size: 0.85rem;
+        margin-bottom: 0px;
+      }
+    }
+
+    .editor-buttongroup.editor-vertical {
+      label {
+        display: block;
+      }
+    }
+  }
+}

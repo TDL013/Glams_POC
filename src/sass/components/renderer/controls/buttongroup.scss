@@ -1,0 +1,21 @@
+@import "app-theme";
+
+form-button-group {
+  .btn-group {
+    label {
+      font-size: $font-size-base;
+
+      &.active {
+        color: $white;
+      }
+    }
+
+    .btn {
+      border: 1px solid $formControlBorderColor;
+    }
+
+    .is-invalid + .btn {
+      border-color: $errorRed;
+    }
+  }
+}

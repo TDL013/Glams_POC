@@ -1,0 +1,9 @@
+@mixin shadow($color: rgba(0, 0, 0, 0.15)) {
+  box-shadow: 0px 3px 5px 2px $color;
+}
+
+@mixin containerWithBoxShadow {
+  box-shadow: rgba(0, 0, 0, 0.08) 1px 2px 15px 0px;
+  background-color: $white;
+  margin-bottom: 20px;
+}

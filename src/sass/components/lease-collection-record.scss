@@ -1,0 +1,42 @@
+@import "app-theme";
+app-lease-collection-record-table, app-sub-lease-table {
+  padding: 20px;
+  @include datatable;
+}
+
+app-lease-collection-record-edit {
+  .flag-control {
+    .form-group, h4 {
+      min-height: 0;
+      margin: 0;
+    }
+  }
+}
+
+app-sub-lease-edit {
+  .leasing-party-control .form-group {
+    min-height: 0;
+    margin-bottom: 10px;
+  }
+
+  .leasing-party-list {
+    padding: 0;
+    margin-bottom: 2rem;
+
+    .leasing-party-item {
+      margin-bottom: 10px;
+
+      & > div:first-child {
+        padding-left: 2.5rem;
+        & > p {
+          display: flex;
+          border: 1px solid $inputBorderGrey;
+          margin: 0;
+          height: 100%;
+          align-items: center;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}

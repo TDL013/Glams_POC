@@ -1,0 +1,96 @@
+@import "app-theme.scss";
+
+.navbar {
+  min-height: 76px;
+
+  img {
+    max-height: 51px;
+    margin-right: 36px;
+  }
+
+  button {
+    margin: 0px 5px;
+  }
+}
+
+::ng-deep {
+  .is-fullscreen {
+    nav {
+      display: none;
+    }
+  }
+}
+
+:host {
+  ::ng-deep {
+    .dropdown {
+      height: 100%;
+
+      .dropdown-toggle {
+        background: transparent;
+        height: 100%;
+        border: 0;
+        outline: none;
+      }
+    }
+
+    form {
+      padding: 0;
+
+      .form-group {
+        min-height: auto;
+      }
+    }
+
+    nav {
+      background-color: $navBarBackground;
+
+      li {
+        &.active {
+          font-weight: 500;
+        }
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        @include tabStyling;
+        background-color: $navBarBackground;
+
+        &.main-nav {
+          min-height: $navHeight;
+
+          .navbar-nav {
+            &>li {
+              padding: 0px 5px;
+            }
+          }
+
+          .justify-content-end {
+            a.nav-link.dropdown-toggle.dropdown-toggle {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .logo {
+        &>img {
+          height: 31px;
+        }
+      }
+    }
+
+    .nav-workspace {
+      color: $white;
+      padding: 0px 30px 4px 0px;
+      font-size: 14px;
+    }
+  }
+
+  .btn {
+    border: none;
+    padding: 10px 35px;
+  }
+
+}

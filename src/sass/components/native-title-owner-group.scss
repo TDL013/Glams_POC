@@ -1,0 +1,7 @@
+@import "app-theme";
+
+app-native-title-owner-group-table {
+  padding: 20px;
+
+  @include datatable;
+}

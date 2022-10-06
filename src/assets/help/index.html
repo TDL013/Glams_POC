@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=".">My Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#australian-government-property-register">Australian Government Property Register</a></li>
+            <li><a href="#requesting-access">Requesting Access</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+        <li class="main "><a href="#leased-estate-user-guide">Leased Estate User Guide</a></li>
+            <li><a href="#leased-estate-user-interface">Leased Estate User Interface</a></li>
+            <li><a href="#using-the-buildings-tab">Using the Buildings Tab</a></li>
+            <li><a href="#create-a-new-building-request">Create A New Building Request</a></li>
+            <li><a href="#using-the-leases-tab">Using the Leases Tab</a></li>
+            <li><a href="#using-the-collection-period-tab">Using the Collection Period Tab</a></li>
+            <li><a href="#using-the-region-costs-tab">Using the Region Costs Tab</a></li>
+            <li><a href="#data-management-link-power-biexcel-download">Data Management Link (Power BI/Excel download)</a></li>
+            <li><a href="#document-search">Document Search</a></li>
+            <li><a href="#profile-link">Profile Link</a></li>
+        <li class="main "><a href="#owned-estate-user-guide">Owned Estate User Guide</a></li>
+            <li><a href="#owned-estate-user-interface">Owned Estate User Interface</a></li>
+            <li><a href="#maintaining-property-records">Maintaining Property Records</a></li>
+            <li><a href="#maintaining-land-parcels">Maintaining Land Parcels</a></li>
+            <li><a href="#divest-land-use-and-public-display-how-are-these-data-used">Divest, land use and public display - How are these data used?</a></li>
+            <li><a href="#using-the-data-management-link-located-on-the-top-banner">Using the ‘Data Management’ link located on the top banner</a></li>
+            <li><a href="#using-profile-link-located-on-the-top-banner">Using ‘Profile’ link located on the top banner</a></li>
+            <li><a href="#document-search_1">Document Search</a></li>
+        <li class="main "><a href="#property-marketplace">Property Marketplace</a></li>
+            <li><a href="#surplus-land">Surplus Land</a></li>
+            <li><a href="#available-office-space">Available Office Space</a></li>
+        <li class="main "><a href="#administrators-user-guide">Administrators User Guide</a></li>
+            <li><a href="#agencies">Agencies</a></li>
+            <li><a href="#buildings">Buildings</a></li>
+            <li><a href="#collection-cycles">Collection Cycles</a></li>
+            <li><a href="#portfolios">Portfolios</a></li>
+            <li><a href="#agency-building-requests">Agency Building Requests</a></li>
+            <li><a href="#agency-exemptions">Agency Exemptions</a></li>
+            <li><a href="#office-space-advertisements">Office Space Advertisements</a></li>
+            <li><a href="#document-management">Document Management</a></li>
+            <li><a href="#user-administration">User Administration</a></li>
+            <li><a href="#data-management-link-power-biexcel-download_1">Data Management Link (Power BI/Excel download)</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="australian-government-property-register">Australian Government Property Register</h1>
+<p>The Australian Government Property Register (AGPR) (formerly GLAMS) incorporates two data sets:</p>
+<ul>
+<li>Leased Estate – which is the former GLAMS dataset; and  </li>
+<li>Owned Estate – which is a dataset of Commonwealth owned land.</li>
+</ul>
+<p>The AGPR also has a Property Marketplace which advertises vacant workspace and surplus land. 
+This user guide covers all three sections of the AGPR application.</p>
+<h2 id="requesting-access">Requesting Access</h2>
+<p>The AGPR is an Australian Government business application. All users must be authenticated prior to an account being set up.</p>
+<p>To request user access, an email from an Executive Level 2 officer (at minimum) is to be sent to the <a href="mailto:propertydata@finance.gov.au">propertydata@finance.gov.au</a> group mailbox.</p>
+<p>The requestor is responsible for ensuring that only those personnel that have a need to know, are given access to the AGPR application. Where there is an agency staffing change, entities are to inform Finance as soon as practicable.</p>
+<p>Access to the AGPR will be granted to all users for a 12-month period (period starts from initial request) and user audits will occur every 6 months. If a user does not reply to an audit request, their account will be suspended and the user will need to request an account unlock by emailing <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#100;&#97;&#116;&#97;&#64;&#102;&#105;&#110;&#97;&#110;&#99;&#101;&#46;&#103;&#111;&#118;&#46;&#97;&#117;">&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#100;&#97;&#116;&#97;&#64;&#102;&#105;&#110;&#97;&#110;&#99;&#101;&#46;&#103;&#111;&#118;&#46;&#97;&#117;</a>.</p>
+<p>In accordance with the relevant Information Security Manual control, no shared use non-specific accounts will be created, e.g. user name is a group mailbox - property@entity.gov.au.
+A draft request email is provided below for your use:</p>
+<hr />
+<p><strong>To:</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#100;&#97;&#116;&#97;&#64;&#102;&#105;&#110;&#97;&#110;&#99;&#101;&#46;&#103;&#111;&#118;&#46;&#97;&#117;">&#112;&#114;&#111;&#112;&#101;&#114;&#116;&#121;&#100;&#97;&#116;&#97;&#64;&#102;&#105;&#110;&#97;&#110;&#99;&#101;&#46;&#103;&#111;&#118;&#46;&#97;&#117;</a><br />
+<strong>Subject Line:</strong> AGPR User access request for [insert First/Last name] - [insert entity full title]</p>
+<p>To the AGPR Administrator,</p>
+<p>I am requesting AGPR user access be provided to [First/Last name]. </p>
+<p>[First name] is the [insert role in organisation] for [insert entity name] and I confirm that AGPR access is required for him/her to conduct their duties within this organisation.</p>
+<p>[First name] details are below: </p>
+<ol>
+<li>First and last name:</li>
+<li>Organisational email address:</li>
+<li>Branch/Section details:</li>
+<li>Contact details: (incl work phone and work mobile as applicable)</li>
+</ol>
+<p>Regards<br />
+[insert requestor's signature block]</p>
+<hr />
+<h2 id="getting-started">Getting Started</h2>
+<h4 id="step-1-account-activation">Step 1: Account Activation</h4>
+<p>Before logging into your AGPR account for the first time, you will be required to activate your account and create a password. To do this, follow the instructions below:</p>
+<ol>
+<li>Open the automatic activation email sent to you from the Department of Finance. </li>
+<li>Click on the ‘Activate Account’ link in the email, as shown in screenshot 1 below.
+<center><img alt="Account activation" src="images/Screenshots/Activate-email.jpg" /><center>
+<center><strong>Screenshot 1</strong></center></li>
+<li>Enter your email address and create a new password - the password you create needs to be unique (Min complex 10 characters – combination of capital letters and alpha numeric).
+Click ‘Submit’.</li>
+<li>If the email address entered is incorrect or the passwords don't match, the account will not be activated and an error message will be displayed on your screen.</li>
+<li>If you have been able to activate your account successfully, you should see a message confirming activation of your account and will be prompted to log in as shown in screenshot 2 below. 
+<center><img alt="account activated log in" src="images/Screenshots/email-confy.jpg" /><center>
+<center><strong>Screenshot 2</strong><center></li>
+</ol>
+<h4 id="step-2-login">Step 2: Login</h4>
+<ol>
+<li>Click on the log in link shown in screenshot 2 above or navigate to <a href="https://dofagprapp-prod.azurewebsites.net/">https://dofagprapp-prod.azurewebsites.net/</a></li>
+<li>
+<p>Enter your email address and password and click on the 'Sign in' button to log into your AGPR account.
+<center><img alt="sign in page" src="images/Screenshots/log-in-page.png" /><center>
+<center><strong>Screenshot 3</strong><center></p>
+</li>
+<li>
+<p>If you have been able to successfully log on, you should be presented with the option of accessing the data set(s) that you have been granted access to. Depending on your level of access, you may be able to view either ‘Leased estate’ or ‘Owned estate’ or both as shown in screenshot 4 below.<br />
+<center><img alt="choose data set" src="images/Screenshots/choose-option.jpg" /><center>
+<center><strong>Screenshot 4</strong><center></p>
+</li>
+<li>
+<p>Click on the service that you wish to access. The 'Important notice to all AGPR users' pop-up will be displayed. Read and click the 'Continue' button to proceed.
+<center><img alt="important notice to AGPR users" src="images/Screenshots/Notice-3.jpg" /><center>
+<center><strong>Screenshot 5</strong><center></p>
+</li>
+<li>
+<p>You are now using the AGPR.     </p>
+</li>
+</ol>
+<h4 id="reset-password">Reset password</h4>
+<ol>
+<li>If you have forgotten your password, you may reset it from the AGPR log in screen.<br />
+<center><img alt="sign in page" src="images/Screenshots/log-in-page.png" /><center></li>
+<li>To do this, click on the 'Forgot your password?' link located below the 'Sign in' button.</li>
+<li>Enter your email address and click the 'Reset your password' button.</li>
+<li>You will receive a password reset confirmation as shown in screenshot 6 below, which will prompt you to check your email for further details.
+<center><img alt="reset password confirmation" src="images/Screenshots/password-reset-confy.jpg" /><center><br />
+<center><strong>Screenshot 6</strong><center></li>
+<li>Open the automatic password reset email sent to you from the Department of Finance. </li>
+<li>Click on the ‘reset password’ link in the email as shown in screenshot 7 below.
+<center><img alt="reset password" src="images/Screenshots/reset-password-link.jpg" /><center><br />
+<center><strong>Screenshot 7</strong><center></li>
+<li>Enter your email address and create a new password - the password you create needs to be unique (Min complex 10 characters – combination of capital letters and alpha numeric). Click ‘Reset’.</li>
+<li>If you have been able to reset your password successfully, you should see a confirmation message on your screen and will be prompted to log in as shown in screenshot 8 below.
+<center><img alt="reset password confirmation" src="images/Screenshots/reset-password-confy.jpg" /><center><br />
+<center><strong>Screenshot 8</strong><center></li>
+<li>Click on the log in link as shown in screenshot 8 above or navigate to <a href="https://dofagprapp-prod.azurewebsites.net/">https://dofagprapp-prod.azurewebsites.net/</a></li>
+</ol>
+<hr />
+<h1 id="leased-estate-user-guide">Leased Estate User Guide</h1>
+<h2 id="leased-estate-user-interface">Leased Estate User Interface</h2>
+<p>Once logged into Leased Estate, you will see a screen similar to the one shown in screenshot 5 above. The following instructions will assist you in familiarising yourself with the user interface.</p>
+<ol>
+<li>
+<p><strong>Banner</strong> – the top part of the screen displays the department and system information in the banner. The various components of the banner are described below:</p>
+<ul>
+<li>The <strong>'Data collection'</strong> icon can be used to access the system data. This is also the default landing screen upon login.</li>
+<li>The Power BI reporting component can be accessed by clicking on the <strong>'Reporting'</strong> icon.</li>
+<li>The <strong>'Profile'</strong> icon located in the top right hand corner of the banner can be used access the user guide and training videos and also sign out of the system.</li>
+</ul>
+</li>
+<li>
+<p><strong>Main Screen Area</strong> – the various components of the main screen area are described below:  </p>
+<ul>
+<li>The <strong>table menu</strong> contains the data tabs; you can navigate between the tabs by clicking on them at any time.</li>
+<li>You can use the <strong>'Search'</strong> box to look for particular records or to narrow down the result set by providing appropriate keywords.</li>
+<li>All records are displayed in the <strong>table</strong> in this section.</li>
+<li>You can change the number of records that are displayed in the table by dropping down the <strong>'Show entries'</strong> box and selecting a number from the drop down box. You can check the total number of records displayed on a page in the bottom right hand corner of the screen.</li>
+</ul>
+</li>
+</ol>
+<h2 id="using-the-buildings-tab">Using the Buildings Tab</h2>
+<p><p>A video on how to edit building details <a title="Edit Building Information" href="./videos/edit-building-info.mp4"> can be viewed here</a></p></p>
+<p>The buildings tab allows you to view, edit or delete building details. You can navigate to the Buildings tab from the Data collection screen.</p>
+<ol>
+<li>To locate a building record that you wish to view or edit, you can use the search bar. You can provide keywords for any columns in the table to search for a particular record.<ul>
+<li>You can also browse more entries by moving through pages.</li>
+</ul>
+</li>
+<li>Once you find the building you wish to view or edit, click on the edit icon <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>This will display the building details. There are two tabs with only one tab that you may enter information in:</li>
+<li>Edit building details with your changes and click the 'Save' button.</li>
+<li>If you are only viewing a building's details, click 'Delete' Back to Agency 'OK' to return to the home page.</li>
+<li>To delete a building, you will need to contact the AGPR Administrator.</li>
+</ol>
+<h2 id="create-a-new-building-request">Create A New Building Request</h2>
+<p>To request the creation of a new building record:  </p>
+<ol>
+<li>Click on the ‘New Building Request’ button.   </li>
+<li>In the ‘Search Address’ field, enter the address details of the building you wish to create a building creation request for. As you type, address suggestions will appear below the field. Click on the address suggestion that matches with the address of your building.   </li>
+<li>After clicking on the suggested address, a number of data fields will become automatically populated.  However, for fields such as ‘Building Name’ and other building details, manually enter the building information required.   </li>
+<li>Once finished, click on the ‘Save’ button located at the bottom right of the page to submit the request. The request will then be sent to an AGPR Administrator’s ‘Agency building requests’ inbox. Once processed, the requestor will be notified by an email sent from propertydata@finance.gov.au, when the building request has been processed.   </li>
+<li>The user should then log into the AGPR if not already and check that the building record exists.   </li>
+<li>If no record exists, then press ‘F5’ to refresh the page and if that does not work, contact the AGPR Administrator as soon as practicable.  </li>
+</ol>
+<h2 id="using-the-leases-tab">Using the Leases Tab</h2>
+<p><p> A video on how to add a new lease record <a title="Add New Lease" href="./videos/new-lease.mp4"> can be viewed here</a></p>
+<p> A video of how to edit an existing lease record <a title="Edit a New Lease" href="./videos/edit-lease.mp4"> can be viewed here</a></p>
+<p> A video of how to edit and set the expiry of an existing lease record <a title="Edit Lease and Lease Expiry" href="./videos/edit-lease-and-lease-expiry.mp4"> can be viewed here</a></p> </p>
+<p>The leases tab allows you to view, edit, or add leases.</p>
+<ol>
+<li>
+<p><strong>To view or edit a lease:</strong></p>
+<ul>
+<li>Locate the lease you wish to view or edit. You can view leases for a specific building by selecting the building from the dropdown list of all available buildings. Select a building, then click the magnifying glass icon.</li>
+<li>When you have located the lease you wish to edit, click the 'edit' button to the right of the lease details <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>You can now make changes to the lease. There may be multiple tabs and optional sections available for editing.</li>
+<li>When you've finished editing the lease, click the 'Save' button to save the information. Otherwise, click 'Back to agency' to return to the home screen.</li>
+</ul>
+</li>
+<li>
+<p><strong>To add a new lease:</strong></p>
+<ul>
+<li>Click on the 'new Lease' button.</li>
+<li>Select a lease type.</li>
+<li>Enter the lease information, as required.</li>
+<li>If adding a tenancy lease, there are several optional sections.</li>
+<li>To add information in an optional section, click the checkbox next to the section header. This will reveal the section and allow details to be added.</li>
+</ul>
+</li>
+<li>
+<p><strong>To expire a lease:</strong></p>
+<ul>
+<li>Update the lease end date to the correct date.</li>
+<li>Save the lease.</li>
+<li>Set Lease status to 'Expired' and save again.</li>
+<li><strong>Note</strong>: By setting a lease to expired the lease will not be rolled forward to a new collection period and will not be accessible to a normal user after that point.</li>
+</ul>
+</li>
+</ol>
+<h2 id="using-the-collection-period-tab">Using the Collection Period Tab</h2>
+<p>To update the collection period details: </p>
+<ol>
+<li>Click on the 'Collection period' tab whilst on the Data collection screen.  </li>
+<li>Enter the required numerical data in the text fields, as required.</li>
+<li>Click the 'Save' button to save the data.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ol>
+<h2 id="using-the-region-costs-tab">Using the Region Costs Tab</h2>
+<p><p> A video on how to edit and delete region costs <a title="Edit and Delete Region Costs" href="./videos/edit-and-delete-region-cost.mp4"> can be viewed here</a></p></p>
+<p>In the Region cost tab, you can view and edit existing region costs, as well as add new costs. To undertake any of these functions, click on the 'Region costs' tab whilst on the Data collection screen.  </p>
+<ol>
+<li>
+<p><strong>To view or edit a region cost:</strong></p>
+<ul>
+<li>Browse for the region cost you wish to view.</li>
+<li>You can sort the Region and Security Expenses columns my clicking on the arrows within the column header <img alt="Screenshot" src="images/region.png" title="Region Button" /></li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>You can view and edit the region cost details on this screen, and click the 'Save' button when you've finished. If you make changes that you do not wish to save, simply click the 'Cancel' button.</li>
+</ul>
+</li>
+<li>
+<p><strong>To add a region cost:</strong></p>
+<ul>
+<li>On the Region costs screen, click on the 'new Region cost' button.</li>
+<li>Enter the region cost details, and click 'Save'.</li>
+<li>Your new region cost should now be added to the list of region costs (note, if there are more than 10 region costs you may have to browse additional pages to find your newly added cost).</li>
+</ul>
+</li>
+<li>
+<p><strong>To delete a region cost:</strong></p>
+<ul>
+<li>Browse for the region cost you wish to view.</li>
+<li>You can sort the Region and Security Expenses columns my clicking on the arrows within the column header <img alt="Screenshot" src="images/region.png" title="Region Button" /></li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a prompt asking you to confirm the deletion of the region cost. Click OK to confirm deletion.</li>
+</ul>
+</li>
+</ol>
+<h2 id="data-management-link-power-biexcel-download">Data Management Link (Power BI/Excel download)</h2>
+<p><strong>Power BI reporting:</strong></p>
+<p>To access the reporting section, click on the 'Data Management' link in the Leased Estate banner and then click on the 'Reporting' link.</p>
+<ol>
+<li>Once in the reporting section, you will see a list of reports available to you.</li>
+<li>Click on the name of any report to load the report.</li>
+<li>Once loaded, the reports will show agency specific information and analysis about relative performance of your agency.</li>
+<li>For further guidance on a specific report, refer to the summary page of each report.</li>
+</ol>
+<p><strong>Excel download:</strong></p>
+<p>An additional Data Exchange link is provided under the Data management link for the Senior Property Advisor (SPA) and Property Service Provider (PSP) roles to download entity property data. By clicking on the link and using the drop down, a SPA can download the complete agency leased estate data set into Excel by collection period. A PSP will only be able to download data for those entities it is responsible for.</p>
+<h2 id="document-search">Document Search</h2>
+<p>Official documents associated with all leases for the selected agency can be viewed by clicking on the ‘Documents’ tab on the ‘Data Collection’ page. These documents can include copies of leases and their associated leasing strategies.</p>
+<p><strong>To search and view a document:</strong></p>
+<ol>
+<li>
+<p>Users can filter the list of documents by using either, or a combination of:</p>
+<ul>
+<li>Lease Identifier – the lease’s AGPR lease id code. </li>
+<li>Building Identifier – the AGPR building id code.</li>
+<li>Document Type – search for all document records that are labelled as a particular type. </li>
+<li>OCR Status – the status of the document’s text extraction.  </li>
+<li>Active – whether the document is the current version.  </li>
+<li>Search Bar – search for records based on tagged keywords.</li>
+</ul>
+</li>
+<li>
+<p>Once a user locates the document they wish to view, the document can be viewed by clicking on the ‘download’ icon. </p>
+</li>
+</ol>
+<p><strong> How to update search tag keywords for a document: </strong></p>
+<p>Tag keywords allow users to search for documents based on labels that describe the content of a document. Users can add tags to search for documents if the OCR process fails or inaccurately scans the document. </p>
+<p>To add or edit the tags associated with a particular document:</p>
+<ol>
+<li>Locate the record that you wish to amend.</li>
+<li>Click on the ‘edit’ button.</li>
+<li>Users can add or remove keywords in the ‘Keywords’ comments field. </li>
+<li>Click the ‘Save’ button and a confirmation message of the update will appear on the screen.</li>
+<li>Click ‘Cancel’ to return the previous screen.   </li>
+</ol>
+<p><strong>How to upload a document:</strong></p>
+<p>Documents relating to a lease can be uploaded, stored and accessed in the documents tab of Leased Estate.
+To upload a document:</p>
+<ol>
+<li>Ensure the document is classified to ‘OFFICIAL’ and has been scanned by an approved antivirus program.</li>
+<li>Navigate to the Leased Estate home page and click on the ‘Leases’ tab.</li>
+<li>Filter records for the particular lease that relates to the document that you wish to upload and click the ‘Edit’ button. </li>
+<li>Click the ‘Documents’ tab and you will be taken to the documents page where all relevant previously uploaded documents will be listed.</li>
+<li>Users can order the list of documents by using either, or a combination of:<ul>
+<li>Lease Identifier – the AGPR lease identification code. </li>
+<li>Document Type – search for all document records that are labelled as a particular type. </li>
+<li>OCR Status – the status of the document’s text extraction.  </li>
+<li>Active – whether the document is the current version (indicated by a tick in the ‘Active’ column) or the archived version (indicated by a cross).  </li>
+<li>File Extension – the format of the document (pdf, excel, jpeg, gif, etc.)</li>
+<li>Version – Whether it is the latest or oldest version of the document.</li>
+</ul>
+</li>
+<li>Click on the ‘Upload Document’ button.    </li>
+<li>Select the document type from the drop down list and then click on ‘Choose File’ to select the document you wish to upload from your computer files. </li>
+<li>Enter any keywords that describe the document that you are using. These keywords can be used to search for this document once uploaded. </li>
+<li>Once finished, click the ‘Upload’. A confirmation message of the upload will appear on the screen if the document was successfully uploaded. A record of the uploaded document will now appear in the document section of the page. </li>
+<li>If a new version of an existing document is being uploaded, the previous version will automatically be archived.</li>
+</ol>
+<p><strong> How to archive a document: </strong></p>
+<p>Although existing documents are automatically archived upon the upload of a newer version, users have the option to directly archive a document through the UI. </p>
+<p>To archive a document:</p>
+<ol>
+<li>Locate the document you wish archive and click the ‘archive’ button.</li>
+<li>A confirmation popup will prompt you to confirm this action. Click the ‘OK’ button to archive the document. </li>
+<li>A confirmation message will appear on the screen if the document was successfully archived. </li>
+<li>Confirm the document has been archived by verifying there is now an x under the active column for that document.</li>
+</ol>
+<p>To view an archived document click the ‘versions (toggle)’ button. This will display all previous versions of the selected document.</p>
+<p>For a record of all archived documents related to a particular land parcel, click the ‘No’ option in the ‘Active?’ toggle and then click the ‘Search’ button. All archived documents will be displayed. Alternatively, selecting the ‘All’ option on the toggle will display a record of all active and archived documents.</p>
+<h2 id="profile-link">Profile Link</h2>
+<p>When you are finished using leased estate, it is recommended that you sign out to ensure your account remains secure. To sign out:</p>
+<ol>
+<li>Click on 'Profile' on the right hand side of the banner.</li>
+<li>Click on the 'Sign out' link.</li>
+<li>If you have correctly signed out, you should see the AGPR login window.</li>
+</ol>
+<hr />
+<h1 id="owned-estate-user-guide">Owned Estate User Guide</h1>
+<h2 id="owned-estate-user-interface">Owned Estate User Interface</h2>
+<p>After logging into Owned Estate, you will see a screen similar to the one shown below. 
+<img alt="Screenshot" src="images/Screenshots/ownedestate-userface.png" /></p>
+<p>The following instructions will assist you in familiarising yourself with the user interface.  </p>
+<ol>
+<li>
+<p><strong>Banner</strong> – the top part of the screen displays the department and system information in the banner. The various components of the banner are described below:</p>
+<ul>
+<li>The <strong>'Property Management'</strong> tab is your entry point for maintaining owned estate data. This is also the default landing screen upon login.  </li>
+<li>The Power BI reporting component can be accessed by clicking on the <strong>‘Reporting’</strong> option under the <strong>‘Data Management’</strong> tab.  </li>
+<li>The <strong>‘Profile’</strong> tab located in the top right hand corner of the banner can be used to access the user guide, training videos and to also sign out of the system.</li>
+</ul>
+</li>
+<li>
+<p><strong>Main Screen Area &gt; Property Management</strong> – the various components of the main screen area are described below.   </p>
+<ul>
+<li>All properties captured in the Owned Estate application for your agency are presented in this table.  </li>
+<li>You can use the <strong>‘Property Search’</strong> box to look for particular records or to narrow down your search by providing appropriate keywords.</li>
+<li>You can limit or enlarge the number of records displayed in the table by clicking on the <strong>‘Show entries’</strong> drop down and selecting the number of table rows you wish to have displayed.</li>
+<li>You can check the total number of records that are displayed on the page in the bottom right hand corner of the screen.</li>
+</ul>
+</li>
+</ol>
+<h2 id="maintaining-property-records">Maintaining Property Records</h2>
+<p><p> A video on how to add a new property <a title="Add Properties" href="./videos/owned-estate-add-property.mp4"> can be viewed here</a></p>
+<p> A video on how to edit a property <a title="Edit Properties" href="./videos/owned-estate-edit-property.mp4"> can be viewed here</a></p>  </p>
+<p>A property refers to a land holding that an agency owns. A property is typically the common name for a parcel of land represented by a land title. A property can comprise of many neighbouring land parcels. For example; Sydney Airport is a property made up of 35 land parcels identified by their land title Lot 4 DP555771, Lot 12 DP1050464 etc.  </p>
+<p>From the property management landing page you are able to add, edit or delete properties relating to your agency.</p>
+<ol>
+<li><strong>To find and view a property:</strong><ul>
+<li>Enter a set of property details in the search bar – you can enter keywords to search on such as address details, property name or state.  </li>
+<li>Click on the ‘Search’ button. A list of properties matching your entered criteria will be displayed.  </li>
+</ul>
+</li>
+<li><strong>To edit a property:</strong><ul>
+<li>Locate the property that you wish to edit using the search bar or by manually browsing the table. </li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />  </li>
+<li>Make the required changes to the property details. Note, instructions on how to maintain the land parcels within a property record is detailed in the section ‘Maintaining Land Parcels’.  </li>
+<li>Click on the 'Save' button.  </li>
+<li>You should see a green pop-up box with a confirmation message.  </li>
+<li>Click on the ‘Cancel' button if you wish to return to property listing.  </li>
+</ul>
+</li>
+<li><strong>To add a property:</strong>  <ul>
+<li>Click on the ‘New Property’ button.  </li>
+<li>Enter the necessary details regarding the property that you wish to add into the Owned Estate database. These include the name, street name, suburb and other basic address information.</li>
+<li>Note, the location information (latitude and longitude) are updated by the Finance Property Data team, so you won’t be able to edit these fields.</li>
+<li>Click the ‘Save’ Button. </li>
+<li>You should see a green pop-up box with a confirmation message. </li>
+</ul>
+</li>
+</ol>
+<p>If you find that a record cannot be saved, chances are that not all mandatory fields have been filled out, so check the record for fields that have a red ring around them, fill out the necessary details and save the record again.</p>
+<h2 id="maintaining-land-parcels">Maintaining Land Parcels</h2>
+<p><p> A video on how to add a new land parcel <a title="Add Parcels" href="./videos/owned-estate-add-parcel.mp4"> can be viewed here</a></p>
+<p> A video on how to edit an existing land parcel <a title="Edit Parcels" href="./videos/owned-estate-edit-parcel.mp4"> can be viewed here</a></p></p>
+<p>A Land Parcel is the term given to an area of land represented by a land title certificate and issued by a state or territory land title office. It is the smallest legal representation of an area of land in Australia.  </p>
+<p>All properties must have at least one land parcel allocated to them.  </p>
+<p>From within a property record you are able to add, edit or delete properties relating to your agency.  </p>
+<ol>
+<li><strong>How to add a new land parcel:</strong><ul>
+<li>Click the ‘New Land Parcel’ button.  </li>
+<li>Enter the necessary details associated with the land parcel that you wish to add to the property. For field specific definitions and requirements, please see the AGPR collection manual.  </li>
+<li>Click the ‘Save’ button.   </li>
+<li>To add multiple land parcels, this process needs to be repeated for each individual parcel of land.   </li>
+</ul>
+</li>
+<li><strong>How to update a land parcel:</strong><ul>
+<li>Within a property record, locate the land parcel you wish to update. This can be done by using the search bar or by manually browsing the table. Note, if no parcels have been added, this table will be empty.  </li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />  </li>
+<li>Make the required changes.  </li>
+<li>Click the ‘Save’ button.   </li>
+</ul>
+</li>
+</ol>
+<h2 id="divest-land-use-and-public-display-how-are-these-data-used">Divest, land use and public display - How are these data used?</h2>
+<p>It is important to understand how the application uses the data provided. Your response to some data fields within a land parcel can drive additional functionality and processes within Government. These include:</p>
+<ol>
+<li>
+<p><strong>Suitable for public display – Yes/No buttons?</strong><br />
+The Department of Finance maintains a publicly facing list of properties on the Australian Government Property Register. All properties that are recorded as suitable for public display will be shown on this list accessible through Finance’s website, i.e. ‘Suitable for public display’ = Yes</p>
+</li>
+<li>
+<p><strong>Is the land surplus to agency requirements – Yes/No buttons?</strong> 
+The ‘Current land use’ section collects data to help determine if the parcel of land is surplus to agency requirements. By declaring the land as surplus, Finance will then engage with the agency to consider alternate uses for the land.  </p>
+</li>
+<li>
+<p><strong>Divestment</strong><br />
+Land parcels that are surplus to an agency’s requirements can be divested to either another commonwealth or state government agency; or to a private sector organisation. When you select that a land parcel has been divested, it will no longer appear in your agency’s data within the Owned Estate application. However, it will remain viewable through the agency reporting function.</p>
+</li>
+</ol>
+<h2 id="using-the-data-management-link-located-on-the-top-banner">Using the ‘Data Management’ link located on the top banner</h2>
+<p>A reporting link is provided under the Data Management tab.  </p>
+<p>By clicking on the link and selecting the necessary report that is needed, an Administrator can view Power BI internal and agency Owned Estate reports. </p>
+<h2 id="using-profile-link-located-on-the-top-banner">Using ‘Profile’ link located on the top banner</h2>
+<p>When you are finished using Owned Estate, it is recommended that you sign out to ensure your account remains secure. To sign out:  </p>
+<ol>
+<li>Click on 'Profile' on the right hand side of the banner.  </li>
+<li>Click on the 'Sign out' link.  </li>
+<li>If you have correctly signed out, you should see the AGPR login window.  </li>
+</ol>
+<h2 id="document-search_1">Document Search</h2>
+<p>The document search function allows users to search for and upload official documents associated with a parcel. These can include Title Records, Search Certificates, Gazette Notices, Survey Plans, Valuations and any ‘Other’ document types. </p>
+<p>The documents for all land parcels owned by the selected agency can be viewed by clicking on the ‘Documents’ tab on the ‘Property Management’ page. </p>
+<p><img alt="Screenshot" src="images/Screenshots/documents-land.png" /></p>
+<p><strong> To search and view a document: </strong></p>
+<ol>
+<li>Users can filter the list of documents by using either, or a combination of:<ul>
+<li>Land Identifier – the land parcel’s AGPR land id code. </li>
+<li>Document Type – search for all document records that are labelled as a particular type. </li>
+<li>OCR Status – the status of the document’s text extraction.  </li>
+<li>Active – whether the document is the current version (“Yes” or a tick) or the archived version (“No”).</li>
+<li>Search Bar – search for records based ozn tagged keywords.</li>
+</ul>
+</li>
+<li>Once a user locates the document they wish to view, the document can be viewed by clicking on the ‘download’ icon. </li>
+</ol>
+<p><img alt="Screenshot" src="images/Screenshots/document-download.png" /></p>
+<p><strong> How to update search tag keywords for a document: </strong></p>
+<p>Tag keywords allow users to search for documents based on labels that describe the content of a document. Users can add tags to search for documents if the OCR process has failed or has inaccurately scanned the document. </p>
+<p>To add or edit the tags associated with a particular document:</p>
+<ol>
+<li>Locate the record that you wish to amend.</li>
+<li>Click on the ‘edit’ button.</li>
+</ol>
+<p><img alt="Screenshot" src="images/Screenshots/document-edit.png" /></p>
+<ul>
+<li>Users can add or remove keywords in the ‘Keywords’ comments field. </li>
+<li>Click the ‘Save’ button and a confirmation message of the update will appear on the screen.</li>
+<li>Click ‘Cancel’ to return the previous screen.</li>
+</ul>
+<p><strong>How to upload a document</strong></p>
+<p>Users can upload a variety of documents relevant to a property and the land parcels associated with that property. </p>
+<p>To upload a document:</p>
+<ol>
+<li>Ensure the document is classified to ‘OFFICIAL’ and has been scanned by an approved antivirus program.</li>
+<li>Search for the relevant property that the land parcel is associated with for which you wish to upload a document. </li>
+<li>Click on the ‘edit’ button of the property record. This will take you to a page with the details of the property and a list of the land parcels associated with the property.  </li>
+<li>Scroll down to the bottom of the page and identify the land parcel relevant to the document you wish to upload. Click on the ‘edit’ button.</li>
+<li>Continue scrolling to the bottom of the page where the document section is located. Click on the ‘Upload Document’ button.</li>
+<li>Select the document type from the drop down list. If the document type is of type ‘Other’ you will be required to enter a description of the document in 20 characters or less. For a document of type ‘Other’ to be uploaded as a new version of an already uploaded document, their description fields must be identical.</li>
+<li>Click on ‘Choose File’ to select the document you wish to upload from your computer. </li>
+<li>Enter any keywords that describe the document that you are uploading. These keywords can be used to search for this document once uploaded. </li>
+<li>When finished, click the ‘Upload’ button. A confirmation message of the upload will appear on the screen if the document was successfully uploaded.</li>
+<li>Click ‘Cancel’ to return to the previous screen. A record of the uploaded document will now appear in the document section of the page. </li>
+<li>If a new version of an existing document is being uploaded, the previous version will automatically be archived.</li>
+</ol>
+<p><strong> How to archive a document: </strong></p>
+<p>Although existing documents are automatically archived upon the upload of a newer, users have the option to directly archive a document through the UI. </p>
+<p>To archive a document:</p>
+<ol>
+<li>Locate the document you wish archive and click the ‘archive’ button.</li>
+<li>A confirmation popup will prompt you to confirm this action. Click the ‘OK’ button to archive the document. </li>
+<li>A confirmation message will appear on the screen if the document was successfully archived. </li>
+<li>Confirm the document has been archived by verifying there is now an x under the active column for that document.</li>
+</ol>
+<p>To view an archived document click the ‘versions (toggle)’ button. This will display all previous versions of the selected document.</p>
+<p>For a record of all archived documents related to a particular land parcel, click the ‘No’ option in the ‘Active?’ toggle and then click the ‘Search’ button. All archived documents will be displayed. Alternatively, selecting the ‘All’ option on the toggle will display a record of all active and archived documents.</p>
+<hr />
+<h1 id="property-marketplace">Property Marketplace</h1>
+<p>Property Marketplace consists of Surplus Land and Available Office Space. Surplus Land is where a user can view land parcels that have been flagged as having surplus land. On the other hand, Available Office Space is where users can search for buildings that have advertisements listed for available office space. </p>
+<h2 id="surplus-land">Surplus Land</h2>
+<ol>
+<li><strong>To view land parcels flagged as surplus land</strong>  <ul>
+<li>Navigate to the AGPR home page and click on the ‘Property Marketplace’ tile. </li>
+<li>Click on the ‘Surplus Land’ tile. </li>
+<li>To view a specific land parcel, a variety of filters are available to the user. These include ‘Location’, in which a user can filter ads by using a building’s full address or any element of that address (street number, street name, postcode, state). Additionally, users can specify a range of hectares to further filter the ads listed. Users can also filter out land parcels depending on their Contamination Risk status, Ecological Value, Heritage Status and whether any Native Title Claims exist.  </li>
+</ul>
+</li>
+</ol>
+<h2 id="available-office-space">Available Office Space</h2>
+<p><p> A video on how to create and edit an ad for Available Office Space  <a title="Create Ad" href="./videos/property-add-ad.mp4"> can be viewed here</a></p>
+<p> A video on how to view ads for Available Office Space  <a title="View Ad" href="./videos/property-view.mp4"> can be viewed here</a></p></p>
+<ol>
+<li><strong>To create an ad:</strong>  <ul>
+<li>Enter into Leased Estate from the Home Page of the AGPR and click on the ‘Leases’ Tab.  </li>
+<li>Search for the building that you wish to place an ad for available office space on. </li>
+<li>Click on the Edit Button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />    </li>
+<li>Click on the ‘Office Space Advertisements’ tab. </li>
+<li>Click on the ‘New Advertisement’ Button.  </li>
+<li>Enter the required information relating to your advertisement and click ‘Save’, otherwise click ‘Cancel’ to return to the ‘Office Space Advertisement’ tab.    </li>
+</ul>
+</li>
+<li><strong>To edit an ad:</strong>  <ul>
+<li>In the ‘Office Space Advertisements’ tab in Leased Estate, the list of ads for available office space will be displayed. Browse for the ad that you wish to edit.</li>
+<li>You can sort the list of ads via columns such as ‘Publish Date’ or ‘Contact person’ by clicking on the arrows within the column headers.</li>
+<li>Click on the edit button of the ad you wish to edit <img alt="Screenshot" src="images/edit.png" title="Edit Button" />  </li>
+<li>After making the desired changes, click on the ‘Save’ button. If you make changes that you do not wish to save, then click on the ‘Cancel’ button.   </li>
+</ul>
+</li>
+<li><strong>To view an ad:</strong>  <ul>
+<li>All ads for available office space will appear in Property Marketplace. To view these ads, return to the AGPR home page and click on the ‘Property Marketplace’ tile. </li>
+<li>Click on the ‘Available Office Space’ tile. </li>
+<li>To view a specific ad, a variety of filters are available to the user. These include ‘Location’, in which a user can filter ads by using a building’s full address or any element of that address (street number, street name, postcode, state). Additionally, users can specify a range of available work points or meters squared to further filter the ads listed.  ‘Status’ can also be used to filter out ads that have been now filled and those that are currently available. </li>
+</ul>
+</li>
+</ol>
+<hr />
+<h1 id="administrators-user-guide">Administrators User Guide</h1>
+<p>If you are a AGPR administrator, you will see an additional 'Administration' icon on the banner, next to the 'Data management' icon. You can access all administration functions by clicking on the down arrow next to Administration.</p>
+<h2 id="agencies">Agencies</h2>
+<p><p> A video on how to search for and edit an agency <a title="Search and Edit Agencies" href="./videos/admin-agencies-searchandedit.mp4"> can be viewed here</a></p>
+<p> A video on how to add an agency <a title="Add an Agency" href="./videos/admin-agencies-addagency.mp4"> can be viewed here</a></p>
+<p> A video on how to view the buildings associated with an agency <a title="View Buildings for an Agency" href="./videos/admin-agencies-viewbuildingsforagency.mp4"> can be viewed here</a></p></p>
+<p>The Agencies section allows administrators to add, edit and delete agencies. You can also use this section to access a list of all buildings for a particular agency.</p>
+<ol>
+<li><strong>To find an agency:</strong>  <ul>
+<li>Enter a set of agency details in the search bar - you can enter any combination of name, ABN and active status.</li>
+<li>Click the 'Search' button.</li>
+</ul>
+</li>
+<li><strong>To add an agency:</strong><ul>
+<li>Click on the 'New Agency' button.</li>
+<li>Enter a name, type, ABN and active status for the agency.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To edit an agency:</strong><ul>
+<li>Find the agency you wish to edit. You can either search for an agency or browse through the list.</li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>Make the required changes to the agency details.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To delete an agency:</strong><ul>
+<li>Find the agency you wish to delete. You can either Search for an agency or browse through the list.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the portfolio.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To access a list of all buildings for an agency:</strong><ul>
+<li>Find the agency you wish to access the building records for. You can either Search for an agency or browse through the list.</li>
+<li>Click on the grid button <img alt="Screenshot" src="images/grid.png" title="Grid Button" /></li>
+<li>You will be redirected to the building tab where you will see a list of all buildings for the selected agency.</li>
+</ul>
+</li>
+</ol>
+<h2 id="buildings">Buildings</h2>
+<p><p> A video on how to search for and edit a building <a title="Search and Edit Buildings" href="./videos/admin-buildings-searchandedit.mp4"> can be viewed here</a></p>
+<p> A video on how to add a building <a title="Add a Building" href="./videos/admin-buildings-addabuilding.mp4"> can be viewed here</a></p>  </p>
+<p>The Buildings section allows administrators to add, edit and delete buildings.</p>
+<ol>
+<li><strong>To find a building:</strong><ul>
+<li>Enter a set of building details in the search bar - you can enter keywords to search on ID, street address, suburb, state/territory as well as active status.</li>
+<li>Click the 'Search' button. A list of buildings matching your search criteria will be displayed.</li>
+</ul>
+</li>
+<li><strong>To edit a building:</strong><ul>
+<li>Find the building you wish to edit. You can either search for a building or browse through the list.</li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>Make the required changes to the building details.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To delete a building:</strong><ul>
+<li>Find the building you wish to delete. You can either Search for a building or browse through the list.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the portfolio.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To access a list of previous AGPR collections for an agency:</strong><ul>
+<li>Find the Agency to access the leased estate collections for. You can either search for an agency or browse through the list.  </li>
+<li>Click on the view button <img alt="button" src="images/Buttons/view_button.png" title="View Button" /></li>
+<li>You will be redirected to the details tab where you will see the details of the selected agency. Select the 'Data collections' on the left of the details tab.  </li>
+<li>Here you will find all the leased estate collections for the selected agency. To view a specific collection, click the view button <img alt="button" src="images/Buttons/view_button.png" title="View Button" />  </li>
+</ul>
+</li>
+</ol>
+<h2 id="collection-cycles">Collection Cycles</h2>
+<p><p> A video on how to add and edit a collection cycle <a title="Add a New Collection Cycle" href="./videos/admin-collectioncycles-addnew.mp4"> can be viewed here</a></p>
+<p> A video on how to search for and delete a collection cycle <a title="Delete Collection Cycles" href="./videos/Search-delete-collection-cycle.mp4"> can be viewed here</a></p>
+<p> A video on how to roll a data collection <a title="Roll a Collection Cycle" href="./videos/Roll-collection-cycle.mp4"> can be viewed here</a></p></p>
+<p>The Collection cycle section allows administrators to add, edit and delete collection cycles.</p>
+<ol>
+<li><strong>To find a collection cycle:</strong><ul>
+<li>Enter a set of collection cycle details - you can search on any combination of start and end dates, type, MOG change and active status.  </li>
+<li>Click the 'Search' button. A list of collection cycles matching your search criteria should be displayed.  </li>
+</ul>
+</li>
+<li><strong>To add a collection cycle:</strong><ul>
+<li>Click on the 'New Record' button.  </li>
+<li>Enter start and end dates, type, MOG change and active status for the collection cycle.  </li>
+<li><strong>Note:</strong>If you are adding a collection cycle for the current period, you should see a second tab labelled 'Roll data collection' in the top-left section of your screen. Additional instructions on how to roll the data collection records from the previous collection cycle to this new collection cycle can be found in the next section.  </li>
+<li>Click on the 'Save' button.  </li>
+<li>You should see a green pop-up box with a confirmation message.  </li>
+</ul>
+</li>
+<li>
+<p><strong>To roll a data collection:</strong> <br />
+When you add a new collection cycle, you may wish to roll the data collection records over to the new collection cycle. When performing this function, it is important to note the following:</p>
+<ul>
+<li>The collection cycle must be in the current period, i.e. you cannot roll the data collection to a past or future dated collection cycle.  </li>
+<li>It is best to ensure that all data collection records from the previous collection cycle have been completed before rolling into a new collection cycle. For example, if a lease hasn't been explicitly expired by following the instructions found under the 'Using the lease tab: to expire a lease' section as above, the system will not do this automatically and will roll these records forward to the new collection cycle, as is.  </li>
+<li>Rolling the data collection to a new collection cycle can only be performed once. It cannot be reversed and the user will only be prompted about this once.      </li>
+</ul>
+<p>To perform this function:</p>
+<ul>
+<li>Click on the 'Roll data collection cycle' tab located in the top-left section of your screen.  </li>
+<li>Read the important pop-up box about this action being irreversible.  </li>
+<li>Click the 'Roll' button.  </li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li>
+<p><strong>To edit a collection cycle:</strong></p>
+<ul>
+<li>Find the collection cycle you wish to edit. You can either search for a collection cycle or browse through the list.</li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>Make the required changes to the collection cycle details.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li>
+<p><strong>To delete a collection cycle:</strong></p>
+<ul>
+<li>Find the collection cycle you wish to delete. You can either Search for a collection cycle or browse through the list.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the portfolio.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+</ol>
+<h2 id="portfolios">Portfolios</h2>
+<p><p> A video on how to search for and edit a portfolio <a title="Search and Edit Portfolios" href="./videos/admin-portfolio-searchandedit.mp4"> can be viewed here</a></p>
+<p> A video on how to add and delete portfolios <a title="Add and Delete Portfolios" href="./videos/admin-portfolio-addnewanddelete.mp4"> can be viewed here</a></p></p>
+<p>The portfolios section allows administrators to add, edit and delete portfolios.</p>
+<ol>
+<li><strong>To find a portfolio:</strong><ul>
+<li>Enter a set of portfolio details in the search bar - you can enter any combination of name, sector and active status.</li>
+<li>Click the 'Search' button. A list of portfolios matching your search criteria should be displayed.</li>
+</ul>
+</li>
+<li><strong>To add a portfolio:</strong><ul>
+<li>Click on the 'New Portfolio' button.</li>
+<li>Enter a name, sector and active status for the portfolio.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To edit a portfolio:</strong><ul>
+<li>Find the portfolio you wish to edit. You can either search for a portfolio or browse through the list.</li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>Make the required changes to the portfolios details.</li>
+<li>Click on the 'Save' button.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+<li><strong>To delete a portfolio:</strong><ul>
+<li>Find the portfolio you wish to delete. You can either search for a portfolio or browse through the list.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the portfolio.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ul>
+</li>
+</ol>
+<h2 id="agency-building-requests">Agency Building Requests</h2>
+<p><p> A video on how to search for and respond to agency building requests <a title="Search and Respond to Building Requests" href="./videos/admin-agencybuildingrequest-searchandrespond.mp4"> can be viewed here</a></p>  </p>
+<p>Users may request building additions or changes.</p>
+<ol>
+<li>Click on the ‘Administration’ tab in the top ribbon and select ‘Agency Building Requests’ in the drop down. This will take you to the Building Requests display where one can search and view all building requests.     </li>
+<li>To find an agency building request, you can either manually search the records, or filter the requests by Agency, Request Status and processing dates.   </li>
+<li>Once you have found the appropriate request, click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />      </li>
+<li>Under the ‘Duplicate AGPR Building Search’ section, by clicking on the ‘Search’ button you are verifying that there are no other building records at the address that exist in the AGPR.   </li>
+<li>If a duplicate building exists, the ‘Building details’ values for that existing building will be displayed to the Administrator to compare with the data in building request. The Administrator will then verify that this information aligns with the user’s building request. If it does, then click on the ‘Link’ button to link the submitter’s agency information to the existing building record <img alt="Screenshot" src="images/link.png" title="Link Button" />      </li>
+<li>If the existing and new ‘Building details’ values do not align, then the Administrator needs to make the decision about which data is correct and then update the related fields as required.  </li>
+<li>Process the request, and provide your feedback in the processor comments section, if required.   </li>
+<li>Select a ‘Request Status’ from the drop down list.  If the building request is insufficient, select ‘Cancelled’.  If the request requires further consideration and the Administrator intends to return back to the request, then select ‘Submitted’. Otherwise, if the building request is approved, then select ‘Processed’.</li>
+<li>Click the 'Save' button to save your changes.   </li>
+<li>Provide the requestor with a confirmation email from the propertydata@finance.gov.au that the request has been processed.   </li>
+</ol>
+<h2 id="agency-exemptions">Agency Exemptions</h2>
+<p><p> A video on how to create, edit and delete an agency exemption <a title="Agency Exemptions" href="./videos/admin-agency-exemption.mp4"> can be viewed here</a></p></p>
+<p>An agency can request from Finance to be exempt from reporting some or all leased areas. If granted these exemptions are logged in the Agency Exemption section. It allows administrators to create, edit and delete agency exemptions.</p>
+<p><strong>To find an agency exemption:</strong>  </p>
+<ol>
+<li>Select the agency’s name in the drop down ‘Agency’ menu.  </li>
+<li>Click the ‘Search’ button.   </li>
+<li>All exemptions that have been granted for the agency are displayed    </li>
+<li>Click on the edit button for an exemption to view more detail <img alt="Screenshot" src="images/edit.png" title="Edit Button" />     </li>
+</ol>
+<p><strong>To add a new agency exemption:</strong></p>
+<ol>
+<li>Click on the ‘New Exemption’ button.    </li>
+<li>Select the agency’s name in the drop down ‘Agency’ menu.    </li>
+<li>Enter a description of the exemption including details such as building or lease included, reason for exemption and exemption approval details.    </li>
+<li>Click the ‘Save’ button.    </li>
+</ol>
+<p><strong>To edit an agency exemption:</strong></p>
+<ol>
+<li>Find the agency exemption you wish to edit. You can either search for an agency exemption or browse manually through the list.  </li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />  </li>
+<li>Make the required changes to the agency exemption’s details.  </li>
+<li>Click on the ‘Save’ button.  </li>
+<li>A green pop-up box should appear with a confirmation message.  </li>
+</ol>
+<p><strong>To delete an agency exemption:</strong></p>
+<ol>
+<li>Find the agency exemption you wish to delete. You can either search for an agency exemption or browse manually through the list.  </li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" />  </li>
+<li>You will see a confirmation of the deletion. Click on the OK button to confirm.  </li>
+<li>A green pop-up box should appear with a confirmation message.  </li>
+</ol>
+<h2 id="office-space-advertisements">Office Space Advertisements</h2>
+<p><p> A video on how to search for and delete office space advertisements <a title="Search and Delete Ads" href="./videos/property-delete-ad.mp4"> can be viewed here</a></p></p>
+<p><strong>To delete an ad for available office space</strong></p>
+<ol>
+<li>Enter Leased Estate from the Home Page of the AGPR and click on the ‘Leases’ Tab.  </li>
+<li>Search for the building that you wish to review an ad for.</li>
+<li>Click on the Edit Button <img alt="Screenshot" src="images/edit.png" title="Edit Button" />  </li>
+<li>Click on the ‘Office Space Advertisements’ tab.</li>
+<li>Locate the ad that you wish to delete. You will have to browse manually through the list, but can order ads by columns such as ‘Status’ or ‘Contact Person’ by clicking on the arrows within the column headers.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /> </li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the ad. </li>
+<li>A green pop-up box will appear with a confirmation message.</li>
+</ol>
+<h2 id="document-management">Document Management</h2>
+<p><strong>To delete a document:</strong></p>
+<ul>
+<li>Navigate to the homepage. </li>
+<li>Filter records for the particular lease that relates to the document that you wish to delete.</li>
+<li>Click the ‘Delete' button. </li>
+</ul>
+<h2 id="user-administration">User Administration</h2>
+<p><p> A video on how to search for and edit users <a title="Search and Edit Users" href="./videos/admin-users-searchandedit.mp4"> can be viewed here</a></p>
+<p> A video on how to add a new user <a title="Add New Users" href="./videos/admin-users-addnew.mp4"> can be viewed here</a></p></p>
+<p>The user administration section can be used for adding, editing or deleting users.</p>
+<p><strong>To find a user:</strong></p>
+<ol>
+<li>You can find a user by browsing through the list of all users or searching for a specific user.</li>
+<li>To search for a user, enter either an email or last name, or both. You can also enter part of an email or name (e.g. finance.gov.au)</li>
+<li>Click the search button. A list of users matching your search criteria should be displayed.</li>
+</ol>
+<p><strong>To add a user:</strong></p>
+<ol>
+<li>To add a user, click the 'New User' button.</li>
+<li>You will be required to enter a first name, last name and email at a minimum.</li>
+<li>You can assign permissions and account management features now, or after the user has been created.</li>
+<li>Click 'Save' to add the user.</li>
+</ol>
+<p><strong>To edit a user:</strong></p>
+<ol>
+<li>Find the user you wish to edit. You can either search for a user or browse through the list of all users.</li>
+<li>Click on the edit button <img alt="Screenshot" src="images/edit.png" title="Edit Button" /></li>
+<li>Make the required changes to the user details, permissions, and account management features.</li>
+<li>Click on the 'Save' button to save your change or 'Cancel' to discard them.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ol>
+<p><strong>To delete a user:</strong></p>
+<ol>
+<li>Find the user you wish to delete. You can either search for a user or browse through the list of all users.</li>
+<li>Click on the delete button <img alt="Screenshot" src="images/delete.png" title="Delete Button" /></li>
+<li>You will see a deletion confirmation, click on OK to confirm the deletion of the user.</li>
+<li>You should see a green pop-up box with a confirmation message.</li>
+</ol>
+<h2 id="data-management-link-power-biexcel-download_1">Data Management Link (Power BI/Excel download)</h2>
+<p>An additional Data Exchange link is provided under the Data management link.</p>
+<p>By clicking on the link and using the drop down, an Administrator can download a complete agency leased estate data set into Excel by collection period.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2019-05-29 06:00:10
+-->

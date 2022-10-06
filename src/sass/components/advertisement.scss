@@ -1,0 +1,5 @@
+@import "app-theme";
+app-advertisement-table {
+  padding: 20px;
+  @include datatable;
+}

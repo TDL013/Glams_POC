@@ -1,0 +1,139 @@
+@mixin tabStylingLight {
+  $active-tab-color: darken($theme-primary, 20);
+  $inactive-tab-color: lighten($theme-primary, 10);
+
+  .nav-tabs {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      box-shadow: none;
+      margin-right: 1px;
+      margin-bottom: -2px;
+
+      .nav-link {
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        border-width: 1px;
+        padding: 0.5rem 1.5rem;
+      }
+    }
+  }
+
+  .tab-content {
+    border: 1px solid $gray-300;
+    border-top: 1px solid transparent;
+  }
+}
+
+@mixin tabStylingDark {
+  .nav-tabs {
+    padding: 0;
+    border: 0;
+    background-color: darken($theme-gray, 2%);
+    //box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 14px;
+
+    li {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid transparent;
+      background-color: lighen($theme-gray, 30%);
+
+      & > a {
+        color: rgba(255, 255, 255, 0.5);
+
+        &:hover,
+        &:focus {
+          color: rgba(255, 255, 255, 0.75);
+        }
+      }
+
+      .active,
+      &.active {
+        border-bottom: 3px solid $white;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 14px;
+      }
+    }
+
+    //clear bootstrap styling
+    .nav-item {
+      margin-bottom: -2px;
+    }
+
+    .nav-link {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-top-width: 0;
+      border-left-width: 0;
+      border-right-width: 0;
+      padding: 0.5rem 1.5rem;
+      color: $red;
+
+      &.active {
+        background: inherit;
+        color: $white;
+      }
+
+      &:hover {
+        border-bottom: 3px solid;
+
+        &:not(.active) {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@mixin tabStyling {
+  padding: 0;
+  border: 0;
+  background-color: darken($navBarBackground, 2%);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 14px;
+
+  li {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+
+    & > a {
+      color: rgba(255, 255, 255, 0.5);
+
+      &:hover,
+      &:focus {
+        color: rgba(255, 255, 255, 0.75);
+      }
+    }
+  }
+
+  //clear bootstrap styling
+  .nav-item {
+    margin-bottom: -2px;
+  }
+
+  .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    padding: 0.5rem 1.5rem;
+
+    &.active {
+      background: inherit;
+      color: $white;
+    }
+
+    &:hover {
+      border-bottom: 3px solid;
+
+      &:not(.active) {
+        border-bottom: 0;
+      }
+    }
+  }
+}

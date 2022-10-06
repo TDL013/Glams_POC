@@ -1,0 +1,10 @@
+@import "app-theme";
+app-agency-building-request-table {
+  padding: 20px;
+  @include datatable;
+}
+
+app-duplicate-building-table {
+  padding: 20px;
+  @include datatable;
+}

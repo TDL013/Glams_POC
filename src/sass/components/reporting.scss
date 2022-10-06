@@ -1,0 +1,17 @@
+app-reporting {
+  li.list-group-item > a {
+    position: relative;
+    padding: 6px 12px 6px 48px;
+
+    & > i.material-icons {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 34px;
+    }
+  }
+
+  #report-container {
+    height: 75vh;
+  }
+}

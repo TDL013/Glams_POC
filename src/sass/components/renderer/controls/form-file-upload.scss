@@ -1,0 +1,11 @@
+@import "app-theme";
+
+form-file-upload {
+  input[type="file"] {
+    display: none;
+  }
+
+  .text-truncate {
+    display: block;
+  }
+}
