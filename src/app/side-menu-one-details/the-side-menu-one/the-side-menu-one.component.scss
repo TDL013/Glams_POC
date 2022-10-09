@@ -13,3 +13,8 @@ li {
   cursor: pointer;
   width: 189px;
 }
+
+.selected {
+  border-left: #04575a 1px solid;
+  font-weight: 700;
+}
